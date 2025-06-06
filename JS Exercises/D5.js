@@ -154,13 +154,13 @@ for (let i = 0; i < charactersArray.length; i++) {
       charactersArray[i] = 7;
       break;
     case "n":
-      charactersArray[i] = 14;
+      charactersArray[i] = 12;
       break;
     case "u":
-      charactersArray[i] = 21;
+      charactersArray[i] = 19;
       break;
     case "z":
-      charactersArray[i] = 26;
+      charactersArray[i] = 21;
       break;
   }
   positionArray.push(charactersArray[i]);
