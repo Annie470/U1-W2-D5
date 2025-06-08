@@ -1,6 +1,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   height: 100vh;
+  margin: 0 auto;
   /* credo che il mockup sia basato su un display da 1440px */
   width: 1440px;
 }
