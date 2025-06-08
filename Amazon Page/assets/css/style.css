@@ -11,6 +11,7 @@ body {
 .f-weight-bl {
   font-weight: 600;
   color: #1f5b6b;
+  cursor: pointer;
 }
 .f-weight-w {
   font-weight: 600;
@@ -40,6 +41,9 @@ body {
 }
 .py-2 {
   padding-top: 0.5rem;
+}
+.py-3 {
+  padding: 2rem 0;
 }
 .px-1 {
   padding-left: 1rem;
@@ -94,6 +98,7 @@ h2 {
   border-radius: 20px;
   box-shadow: 6px 7px 19px -9px black;
   background-size: cover;
+  cursor: pointer;
 }
 .card-img1 {
   background-color: #b3aa4f;
@@ -117,4 +122,7 @@ h2 {
 }
 .d-article img {
   width: 100%;
+}
+footer div + div img {
+  width: 300px;
 }
