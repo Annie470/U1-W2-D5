@@ -11,7 +11,6 @@ body {
 .f-weight-bl {
   font-weight: 600;
   color: #1f5b6b;
-  cursor: pointer;
 }
 .f-weight-w {
   font-weight: 600;
@@ -53,6 +52,9 @@ body {
 }
 .inline {
   display: inline;
+}
+.a-no-decoration {
+  text-decoration: none;
 }
 
 header img {
