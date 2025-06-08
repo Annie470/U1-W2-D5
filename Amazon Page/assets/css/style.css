@@ -1,1 +1,120 @@
-/* Your styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+  /* credo che il mockup sia basato su un display da 1440px */
+  width: 1440px;
+}
+.text-center {
+  text-align: center;
+  width: 100%;
+}
+.f-weight-bl {
+  font-weight: 600;
+  color: #1f5b6b;
+}
+.f-weight-w {
+  font-weight: 600;
+  color: white;
+}
+.f-weight-b {
+  font-weight: 600;
+  color: black;
+}
+.a-white {
+  text-decoration: none;
+  color: white;
+}
+.bg-dark {
+  color: #eaeded;
+  background-color: #222f3e;
+}
+.bg-yellow {
+  color: #eaeded;
+  background-color: #f56600;
+}
+.bg-lightblue {
+  background-color: #364759;
+}
+.py-1 {
+  padding: 1rem 0;
+}
+.py-2 {
+  padding-top: 0.5rem;
+}
+.px-1 {
+  padding-left: 1rem;
+}
+.my-1 {
+  margin: 2rem 0;
+}
+.inline {
+  display: inline;
+}
+
+header img {
+  width: 200px;
+}
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+main {
+  padding: 30px;
+  background-color: #eaeded;
+}
+#banner {
+  background-color: #306e5f;
+  background-image: url("../images/bg-image.png");
+  background-repeat: repeat;
+  height: 200px;
+  padding: 60px 0;
+  box-sizing: border-box;
+}
+h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+.s-1 {
+  background-color: white;
+}
+.s-1 p {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.s-1 img {
+  width: 100%;
+}
+.card-container div {
+  display: inline-block;
+  margin: 0 1rem;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: 6px 7px 19px -9px black;
+  background-size: cover;
+}
+.card-img1 {
+  background-color: #b3aa4f;
+  background-image: url("../images/img_1.jpg");
+  background-position: 50% 0;
+}
+.card-img2 {
+  background-color: #5f98a0;
+  background-image: url("../images/img_2.jpg");
+  background-position: 50% 0;
+}
+.card-img3 {
+  background-color: #cccccc;
+  background-image: url("../images/img_3.jpg");
+  background-position: 55% 0;
+}
+.card-img4 {
+  background-color: #8f594a;
+  background-image: url("../images/img_4.jpg");
+  background-position: 50% 0;
+}
+.d-article img {
+  width: 100%;
+}
