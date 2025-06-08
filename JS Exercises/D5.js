@@ -61,10 +61,30 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ];
+// Creiamo una funzione che fornisca le lettere che compongono una targa
+const letteraTarga = function () {
+  let lettera = Math.floor(Math.random() * 4);
+  switch (lettera) {
+    case 0:
+      lettera = "E";
+      break;
+    case 1:
+      lettera = "Z";
+      break;
+    case 2:
+      lettera = "D";
+      break;
+    case 3:
+      lettera = "H";
+      break;
+  }
+  return lettera;
+};
+
 //Lasciamo che lo pseudo-destino scelga il numero di targa...
 const targaRandom = function () {
   let targa = Math.ceil(Math.random() * 158399);
-  return "AC" + targa + "F"; //così è piu verosimile
+  return "C" + letteraTarga() + targa + letteraTarga(); //così è piu verosimile
 };
 for (let i = 0; i < cars.length; i++) {
   cars[i].licensePlate = targaRandom();
